@@ -1,0 +1,18 @@
+.newsHeader{
+    text-align: center;
+    padding: 1rem;
+    color: var(--lazy-pink);
+    font-size: 4rem;
+}
+
+.news{
+    text-align: center;
+    padding: 2rem;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .5s;
+    &:hover{
+        color: var(--lazy-pink);
+    }
+}

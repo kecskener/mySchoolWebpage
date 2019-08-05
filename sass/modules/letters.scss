@@ -1,0 +1,24 @@
+@keyframes tingle{
+    50%{text-shadow: 0rem 2rem 1rem rgba(black,.5);font-size: 6rem;}
+    100%{font-size: 5rem}
+}
+
+.letter1{
+    animation: tingle 3s linear infinite;
+    animation-delay: 3s;
+}
+
+.letter2{
+    animation: tingle 3s linear infinite;
+    animation-delay: 2s;
+}
+
+.letter3{
+    animation: tingle 3s linear infinite;
+    animation-delay: 4s;
+}
+
+.letter4{
+    animation: tingle 5s linear infinite;
+    animation-delay: 6s;
+}

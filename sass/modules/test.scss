@@ -1,0 +1,20 @@
+.btn{
+   border: none;
+   font-size: 2rem;
+   padding: 1rem 2rem;
+   align-self: center;
+   border-radius: 1.2rem;
+   background-color: var(--white-swift);
+   border: 0.2rem solid var(--lazy-pink);
+   color: var(--lazy-pink);
+   cursor: pointer;
+   transition: all .3s;
+   &:active{
+     transform: translateY(1rem);
+   }
+   &:hover{
+     background-color: var(--lazy-pink);
+     border-radius: 1.5rem;
+     color: var(--white-swift);
+   }
+}
